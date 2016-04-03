@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_mem_avatar"
+            android:src="@android:drawable/sym_def_app_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="ID : "
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_mem_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Name : "
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_mem_name"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:maxLines="5"
+                android:text="description of something, ....,.....,...."
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Birth day : "
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:id="@+id/txt_mem_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 19/3/2017"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Address : "
+
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_mem_address"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:maxLines="8"
+                android:text="1083 Lạc Long Quân, phường 11, Tân Bình, Hồ Chí Minh"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Birth place : "
+
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_mem_birthplace"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:maxLines="5"
+                android:text="United State"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Gender : "
+
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_mem_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:maxLines="5"
+                android:text="Male"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <!--<ListView
+            android:name="@+id/lstViewDiablog1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <ListView
+            android:name="@+id/lstViewDiablog2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>-->
+
+    </LinearLayout>
+</ScrollView>
